@@ -13,10 +13,11 @@ d.addEventListener('DOMContentLoaded', (e) => {
     alarm('assets/alarma.mp3', '#activar-alarma', '#desactivar-alarma');
     countdown('countdown', 'Jun 27, 2023 09:15:00', 'Feliz Cumpleaños!!!');
     scrollTopButton('.scroll-top-btn');
-    darkTheme('.dark-theme-btn', 'dark-mode');
 });
 
 d.addEventListener('keydown', (e) => {
     shortcuts(e);
     moveBall(e, '.ball', '.stage');
 });
+
+darkTheme('.dark-theme-btn', 'dark-mode');
