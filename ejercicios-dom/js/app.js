@@ -9,6 +9,7 @@ import responsiveTester from "./prueba_responsive.js";
 import userDeviceInfo from "./deteccion_dispositivos.js";
 import networkStatus from "./deteccion_red.js";
 import webCam from "./deteccion_webcan.js";
+import getGeolocation from "./geolocalizacion.js";
 
 const d = document;
 
@@ -23,6 +24,7 @@ d.addEventListener('DOMContentLoaded', (e) => {
     responsiveTester('responsive-tester');
     userDeviceInfo('user-device');
     webCam('webcam');
+    getGeolocation('geolocation');
 });
 
 d.addEventListener('keydown', (e) => {
