@@ -66,7 +66,7 @@ export default function userDeviceInfo(id){
     }
 
     /* Redirecciones */
-    if(isMobile.android()) {
-        window.location.href = 'https://twitter.com';
-    }
+    // if(isMobile.android()) {
+    //     window.location.href = 'https://twitter.com';
+    // }
 }
