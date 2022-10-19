@@ -294,6 +294,10 @@ img{
     color: #4d4d4d;
 }
 
+video{
+    width: 80%;
+}
+
 /* ScrollSpy */
 @media screen and (min-width: 1024px) {
     body{
